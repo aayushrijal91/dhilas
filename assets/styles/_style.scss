@@ -1,9 +1,4 @@
 main.homepage {
-    .divider {
-        height: 8px;
-        width: 100%;
-    }
-
     section.homepage-banner {
         background: imgUrl('homebanner.jpg') center top;
         background-size: cover;
@@ -42,5 +37,13 @@ main.homepage {
             background: imgUrl('business-needs.jpg') center top;
             background-size: cover;
         }
+    }
+}
+
+main.aboutuspage {
+    .project-worker-img {
+        position: absolute;
+        top: -120px;
+        right: -60px;
     }
 }

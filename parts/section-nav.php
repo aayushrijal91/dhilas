@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-auto">
-                    <a href="" class="">
+                    <a href="<?= home_url() ?>" class="">
                         <img src="<?= get_field('general', 'options')['logo']['url'] ?>" alt="<?= get_field('general', 'options')['logo']['url'] ?>">
                     </a>
                 </div>
