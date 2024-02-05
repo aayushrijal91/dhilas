@@ -1,3 +1,20 @@
+section.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    nav {
+        width: 100%;
+        padding: 18px 0;
+        border-bottom: 1px solid rgba(124, 197, 229, 0.22);
+        background: linear-gradient(180deg, #111D2A 40.61%, rgba(0, 0, 0, 0.00) 100%);
+
+        .btn {
+            height: 39px;
+        }
+    }
+}
+
 section.jobs-description {
     .jobs-slider {
         .slick-slide {

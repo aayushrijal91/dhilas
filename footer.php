@@ -10,15 +10,21 @@
                     </div>
 
                     <div class="col-auto">
-                        <img src="http://localhost/dhilas/wp-content/uploads/2024/02/facebook.png" alt="">
+                        <a href="" target="_blank">
+                            <img src="http://localhost/dhilas/wp-content/uploads/2024/02/facebook.png" alt="">
+                        </a>
                     </div>
 
                     <div class="col-auto">
-                        <img src="http://localhost/dhilas/wp-content/uploads/2024/02/twitter.png" alt="">
+                        <a href="" target="_blank">
+                            <img src="http://localhost/dhilas/wp-content/uploads/2024/02/twitter.png" alt="">
+                        </a>
                     </div>
 
                     <div class="col-auto">
-                        <img src="http://localhost/dhilas/wp-content/uploads/2024/02/instagram.png" alt="">
+                        <a href="" target="_blank">
+                            <img src="http://localhost/dhilas/wp-content/uploads/2024/02/instagram.png" alt="">
+                        </a>
                     </div>
                 </div>
             </div>

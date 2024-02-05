@@ -4,7 +4,7 @@
 * The Home page
 */
 get_header();
-// get_template_part('parts/section', 'nav');
+get_template_part('parts/section', 'nav');
 ?>
 
 <main class="homepage">
