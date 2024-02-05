@@ -90,7 +90,7 @@
     </div>
 
     <div class="container">
-        <div class="row justify-content-between align-items-center">
+        <div class="row justify-content-between align-items-center pb-4">
             <div class="col-auto">
                 <p class="text-white">© <?= date('Y') ?> Dhilas Excavation & Demolition Pty Ltd</p>
             </div>

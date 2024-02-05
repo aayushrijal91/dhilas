@@ -33,7 +33,7 @@ section.jobs-description {
                 object-fit: cover;
                 z-index: 1;
             }
-            
+
             .overlay {
                 background: linear-gradient(180deg, #1D3046 0%, rgba(29, 48, 70, 0.00) 100%);
                 position: absolute;
@@ -43,7 +43,98 @@ section.jobs-description {
                 text-transform: uppercase;
             }
         }
-        
+
+    }
+}
+
+section.services {
+    .service-card {
+        height: 500px;
+        width: 100%;
+        background: $white;
+        box-shadow: 0px 0px 18.125px 0px rgba(0, 0, 0, 0.35);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        transition: 0.2s all ease-in-out;
+
+        .image {
+            transform: scale(1.1);
+            transition: 0.2s all ease-in-out;
+        }
+
+        &:hover {
+            background: $primary;
+
+            .image {
+                transform: scale(1.2);
+            }
+        }
+    }
+}
+
+section.our-numbers {
+    padding: 218px 0 152px;
+    background: imgUrl('homepage-numbers.png') center $tertiary;
+    margin-top: -50px;
+}
+
+section.priority {
+    background: imgUrl('safety-is-priority.png') right bottom;
+}
+
+section.testimonials {
+    .testimonials-slider {
+        .slick-slide {
+            padding: 27px 54px;
+            border-radius: 0 0 100px 0;
+            margin: 0 25px;
+            opacity: 0.1;
+            transition: 0.2s all ease-in-out;
+
+            .initials {
+                height: 50px;
+                width: 50px;
+            }
+
+            &.slick-current {
+                opacity: 1;
+            }
+
+            .bottom-mark {
+                position: absolute;
+                bottom: 6px;
+                right: -30px;
+            }
+        }
+    }
+}
+
+section.our-client {
+    background: imgUrl('client-bg.png') center, $tertiary;
+    background-size: cover;
+}
+
+section.promotions {
+    background: imgUrl('qualified-employees.png') left bottom;
+
+    .promotion-card {
+        border-bottom: 4px solid $primary;
+        width: 100%;
+        position: relative;
+
+        .overlay {
+            position: absolute;
+            width: 100%;
+            top: 0;
+            height: 202px;
+            padding: 22px;
+            font-size: 36px;
+            font-weight: 900;
+            background: linear-gradient(180deg, rgba(29, 48, 70, 0.00) 0%, rgba(29, 48, 70, 0.90) 84.96%);
+            display: flex;
+            align-items: flex-end;
+        }
     }
 }
 
@@ -55,7 +146,9 @@ section.common-form {
         box-shadow: 0px 5.844px 10.853px 1.67px rgba(0, 0, 0, 0.25);
     }
 
-    input.form-control, textarea.form-control, select.form-control {
+    input.form-control,
+    textarea.form-control,
+    select.form-control {
         background: rgba(255, 255, 255, 0.70);
         border-radius: 0;
         border: none;
@@ -64,6 +157,4 @@ section.common-form {
     }
 }
 
-footer {
-
-}
+footer {}
