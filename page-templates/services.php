@@ -5,10 +5,10 @@
 */
 get_header();
 get_template_part('parts/section', 'nav');
+get_template_part('parts/section', 'banner');
 ?>
 
 <main class="servicespage">
-    <?php get_template_part('parts/section', 'banner') ?>
 
     <section class="servicesList py-7">
         <div class="container">
@@ -78,13 +78,9 @@ get_template_part('parts/section', 'nav');
     </section>
 
     <?php get_template_part('parts/section', 'quickquote'); ?>
-
     <?php get_template_part('parts/section', 'about'); ?>
-
     <?php get_template_part('parts/section', 'ournumbers'); ?>
-
     <?php get_template_part('parts/section', 'priority'); ?>
-
     <?php get_template_part('parts/section', 'quickquote'); ?>
 
     <div class="pt-7">
@@ -92,9 +88,7 @@ get_template_part('parts/section', 'nav');
     </div>
 
     <?php get_template_part('parts/section', 'ourclient'); ?>
-
     <?php get_template_part('parts/section', 'promotions'); ?>
-
     <?php get_template_part('parts/section', 'commonform'); ?>
 </main>
 

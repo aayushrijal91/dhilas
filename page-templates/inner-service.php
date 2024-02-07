@@ -5,10 +5,13 @@
 */
 get_header();
 get_template_part('parts/section', 'nav');
+get_template_part('parts/section', 'banner');
 ?>
 
 <main class="innerservicePage">
-    inner service page
+    <div class="container">
+        
+    </div>
 </main>
 
 <?php get_footer(); ?>
