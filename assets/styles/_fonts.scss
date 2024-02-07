@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
 $font-gilroy: "Gilroy", sans-serif;
+$font-opensans: 'Open Sans', sans-serif;
 
 $font-body: $font-gilroy;
 
 $font-families: (
     "gilroy": "Gilroy",
+    "opensans": "Open Sans",
 );
 
 @each $name, $font-family in $font-families {

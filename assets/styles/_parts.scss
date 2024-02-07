@@ -9,7 +9,8 @@ section.nav {
         padding: 18px 0;
         border-bottom: 1px solid rgba(124, 197, 229, 0.22);
         background: linear-gradient(180deg, #111D2A 40.61%, rgba(0, 0, 0, 0.00) 100%);
-
+        backdrop-filter: blur(10px);
+        
         .btn {
             height: 39px;
         }

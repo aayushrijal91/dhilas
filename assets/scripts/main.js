@@ -40,6 +40,11 @@ jQuery(function ($) {
 
                 AOS.refresh();
 
+                $('.servicesList .service-card').mouseenter(function() {
+                    $(this).find('.chronicle').slideUp(100);
+                }).mouseleave(function() {
+                    $(this).find('.chronicle').slideDown(100);
+                });
             }, // end misc
         }, // end ui
         //utils: {

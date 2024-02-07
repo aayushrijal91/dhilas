@@ -77,7 +77,7 @@
                     <div class="divider bg-tertiary"></div>
                 </div>
 
-                <article class="fs-24 text-tertiary description">
+                <article class="fs-24 text-tertiary description font-opensans">
                     <p>All employees are expected to take all practical and necessary measures to ensure a safe and healthy working environment.</p>
 
                     <p>The management of the company has the responsibility to monitor and maintain the safe working environment and conditions at any workplace.</p>

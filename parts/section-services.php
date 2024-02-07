@@ -9,7 +9,7 @@
             <div class="col-3">
                 <div class="service-card">
                     <p class="text-uppercase fs-32 py-3 px-4 fw-900">Demolition</p>
-                    <img class="image" src="<?= home_url() ?>/wp-content/uploads/2024/01/demolition-1.png" alt="">
+                    <img class="image" src="<?= home_url() ?>/wp-content/uploads/2024/02/demolition-1.png" alt="">
                     <div class="p-4">
                         <a href="" class="text-black fw-500">Read more
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="11" viewBox="0 0 18 11" fill="none">
@@ -23,7 +23,7 @@
             <div class="col-3">
                 <div class="service-card">
                     <p class="text-uppercase fs-32 py-3 px-4 fw-900">Asbestos Removal</p>
-                    <img class="image" src="<?= home_url() ?>/wp-content/uploads/2024/01/asbestos-removal-1.png" alt="">
+                    <img class="image" src="<?= home_url() ?>/wp-content/uploads/2024/02/asbestos-removal-1.png" alt="">
                     <div class="p-4">
                         <a href="" class="text-black fw-500">Read more
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="11" viewBox="0 0 18 11" fill="none">
@@ -37,7 +37,7 @@
             <div class="col-3">
                 <div class="service-card">
                     <p class="text-uppercase fs-32 py-3 px-4 fw-900">Excavation</p>
-                    <img class="image" src="<?= home_url() ?>/wp-content/uploads/2024/01/excavation-1.png" alt="">
+                    <img class="image" src="<?= home_url() ?>/wp-content/uploads/2024/02/excavation-1.png" alt="">
                     <div class="p-4">
                         <a href="" class="text-black fw-500">Read more
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="11" viewBox="0 0 18 11" fill="none">
@@ -51,7 +51,7 @@
             <div class="col-3">
                 <div class="service-card">
                     <p class="text-uppercase fs-32 py-3 px-4 fw-900">Traffic Control</p>
-                    <img class="image" src="http://localhost/dhilas/wp-content/uploads/2024/01/traffic-control-1.png" alt="">
+                    <img class="image" src="<?= home_url() ?>/wp-content/uploads/2024/02/traffic-control-1.png" alt="">
                     <div class="p-4">
                         <a href="" class="text-black fw-500">Read more
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="11" viewBox="0 0 18 11" fill="none">

@@ -8,28 +8,28 @@
                 <div class="row g-3">
                     <div class="col-6">
                         <div class="d-flex gap-3 align-items-center">
-                            <img src="<?= home_url() ?>/wp-content/uploads/2024/01/competitive-rates.png" alt="">
+                            <img src="<?= home_url() ?>/wp-content/uploads/2024/02/competitive-rates.png" alt="">
                             <p class="fs-20 text-tertiary fw-600">Competitive Rates</p>
                         </div>
                     </div>
 
                     <div class="col-6">
                         <div class="d-flex gap-3 align-items-center">
-                            <img src="<?= home_url() ?>/wp-content/uploads/2024/01/on-site-consultation.png" alt="">
+                            <img src="<?= home_url() ?>/wp-content/uploads/2024/02/on-site-consultation.png" alt="">
                             <p class="fs-20 text-tertiary fw-600">On-Site Consultations</p>
                         </div>
                     </div>
 
                     <div class="col-6">
                         <div class="d-flex gap-3 align-items-center">
-                            <img src="<?= home_url() ?>/wp-content/uploads/2024/01/free-on-site-visits.png" alt="">
+                            <img src="<?= home_url() ?>/wp-content/uploads/2024/02/free-on-site-visits.png" alt="">
                             <p class="fs-20 text-tertiary fw-600">Free On-Site Visits</p>
                         </div>
                     </div>
 
                     <div class="col-6">
                         <div class="d-flex gap-3 align-items-center">
-                            <img src="<?= home_url() ?>/wp-content/uploads/2024/01/free-quotes.png" alt="">
+                            <img src="<?= home_url() ?>/wp-content/uploads/2024/02/free-quotes.png" alt="">
                             <p class="fs-20 text-tertiary fw-600">Free Quotes</p>
                         </div>
                     </div>

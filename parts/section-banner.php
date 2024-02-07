@@ -1,3 +1,4 @@
+<?php $banner = get_field('banner'); ?>
 <section class="banner">
     <img class="sky position-absolute h-100 w-100 object-fit-cover" src="<?= get_template_directory_uri() ?>/assets/images/background/banner_sky.jpg" alt="">
     <div class="gradient-overlay">
@@ -9,8 +10,14 @@
         <div class="inner" data-aos="fade-up">
             <div class="container">
                 <p class="fs-32 text-center text-uppercase"><?= the_title() ?></p>
-                <div class="col-xl-8 mx-auto py-3">
-                    <h1 class="fs-85 lh-1 fw-700 text-center">Over 15 years<br /> serving Sydney wide</h1>
+                <div class="py-3">
+                    <?php if (!empty($banner["title"])) : ?>
+                        <h1 class="fs-85 lh-1 fw-700 text-center"><?= $banner['title'] ?></h1>
+                    <?php endif; ?>
+
+                    <?php if (!empty($banner["subtitle"])) : ?>
+                        <p class="fs-42 fw-800 text-center"><?= $banner["subtitle"] ?></p>
+                    <?php endif; ?>
                 </div>
 
                 <div class="col-xl-3 mx-auto pt-3">

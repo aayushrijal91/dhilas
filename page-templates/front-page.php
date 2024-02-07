@@ -23,31 +23,31 @@ get_template_part('parts/section', 'nav');
         <div class="container pb-5">
             <div class="bannerServiceSlider">
                 <div class="bg-primary text-center text-secondary p-4">
-                    <img src="http://localhost/dhilas/wp-content/uploads/2024/01/demolition.png" alt="">
+                    <img src="http://localhost/dhilas/wp-content/uploads/2024/02/demolition.png" alt="">
 
                     <p>Demolition</p>
                 </div>
 
                 <div class="p-4">
-                    <img src="http://localhost/dhilas/wp-content/uploads/2024/01/asbestos-removal.png" alt="">
+                    <img src="http://localhost/dhilas/wp-content/uploads/2024/02/asbestos-removal.png" alt="">
 
                     <p>Asbestos Removal</p>
                 </div>
 
                 <div class="p-4">
-                    <img src="http://localhost/dhilas/wp-content/uploads/2024/01/excavation.png" alt="">
+                    <img src="http://localhost/dhilas/wp-content/uploads/2024/02/excavation.png" alt="">
 
                     <p>Excavation</p>
                 </div>
 
                 <div class="p-4">
-                    <img src="http://localhost/dhilas/wp-content/uploads/2024/01/traffic-control.png" alt="">
+                    <img src="http://localhost/dhilas/wp-content/uploads/2024/02/traffic-control.png" alt="">
 
                     <p>Traffic control</p>
                 </div>
 
                 <div class="p-4">
-                    <img src="http://localhost/dhilas/wp-content/uploads/2024/01/strip-outs.png" alt="">
+                    <img src="http://localhost/dhilas/wp-content/uploads/2024/02/strip-outs.png" alt="">
 
                     <p>Strip Outs</p>
                 </div>
