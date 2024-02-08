@@ -20,7 +20,7 @@
                     <?php endif; ?>
                 </div>
 
-                <div class="col-xl-3 mx-auto pt-3">
+                <div class="col-md-5 col-lg-4 col-xl-3 mx-auto pt-3">
                     <div class="divider bg-primary"></div>
                 </div>
             </div>

@@ -53,9 +53,11 @@ main.homepage {
 
 main.aboutuspage {
     .project-worker-img {
-        position: absolute;
-        top: -120px;
-        right: -60px;
+        @include media-breakpoint-up(xl) {
+            position: absolute;
+            top: -120px;
+            right: -60px;
+        }
     }
 }
 

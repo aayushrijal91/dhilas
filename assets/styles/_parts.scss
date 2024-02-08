@@ -37,6 +37,10 @@ section.banner {
         color: $white;
         position: relative;
         z-index: 101;
+
+        @include media-breakpoint-down(sm) {
+            padding: 220px 0;
+        }
     }
 }
 
