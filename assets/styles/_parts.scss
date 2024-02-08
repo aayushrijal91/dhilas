@@ -100,24 +100,25 @@ section.jobs-description {
 
     .jobs-description-slider {
         .slick-slide {
-            height: 411px;
-            position: relative;
-            margin: 0 8px;
-
-            .image {
-                height: 100%;
-                width: 100%;
-                object-fit: cover;
-                z-index: 1;
-            }
-
-            .overlay {
-                background: linear-gradient(180deg, #1D3046 0%, rgba(29, 48, 70, 0.00) 100%);
-                position: absolute;
-                height: 100%;
-                width: 100%;
-                z-index: 10;
-                text-transform: uppercase;
+            .job-card{
+                height: 411px;
+                position: relative;
+    
+                .image {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    z-index: 1;
+                }
+    
+                .overlay {
+                    background: linear-gradient(180deg, #1D3046 0%, rgba(29, 48, 70, 0.00) 100%);
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    z-index: 10;
+                    text-transform: uppercase;
+                }
             }
         }
 

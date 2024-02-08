@@ -6,107 +6,39 @@
         </div>
 
         <div class="jobs-slider py-5">
-            <div class="">
-                <p class="title">Demolition</p>
-            </div>
-
-            <div class="">
-                <p class="title">Asbestos Removal</p>
-            </div>
-
-            <div class="">
-                <p class="title">Excavation</p>
-            </div>
-
-            <div class="">
-                <p class="title">Traffic Control</p>
-            </div>
-
-            <div class="">
-                <p class="title">Strip Outs</p>
-            </div>
-
-            <div class="">
-                <p class="title">Renovations</p>
-            </div>
-
-            <div class="">
-                <p class="title">Traffic Control</p>
-            </div>
-
-            <div class="">
-                <p class="title">Concrete Cutting</p>
-            </div>
+            <?php if (have_rows('jobs', 'options')) :
+                while (have_rows('jobs', 'options')) : the_row();
+            ?>
+                    <div>
+                        <p class="title"><?= get_sub_field('job_group'); ?></p>
+                    </div>
+            <?php
+                endwhile;
+            endif; ?>
         </div>
 
         <div class="jobs-description-slider">
-            <div class="job-card">
-                <div class="overlay p-4">
-                    <p class="fs-27 text-primary fw-700">Mosman</p>
-                    <p class="fs-20 text-white fw-500">Land Clearing</p>
-                </div>
-                <img class="image" src="http://localhost/dhilas/wp-content/uploads/2024/02/mosman.jpg" alt="">
-            </div>
-
-            <div class="job-card">
-                <div class="overlay p-4">
-                    <p class="fs-27 text-primary fw-700">Bankstown</p>
-                    <p class="fs-20 text-white fw-500">Land Flattening</p>
-                </div>
-                <img class="image" src="http://localhost/dhilas/wp-content/uploads/2024/02/bankstown.jpg" alt="">
-            </div>
-
-            <div class="job-card">
-                <div class="overlay p-4">
-                    <p class="fs-27 text-primary fw-700">Liverpool</p>
-                    <p class="fs-20 text-white fw-500">Block Clearance</p>
-                </div>
-                <img class="image" src="http://localhost/dhilas/wp-content/uploads/2024/02/liverpool.jpg" alt="">
-            </div>
-
-            <div class="job-card">
-                <div class="overlay p-4">
-                    <p class="fs-27 text-primary fw-700">Mosman</p>
-                    <p class="fs-20 text-white fw-500">Land Clearing</p>
-                </div>
-                <img class="image" src="http://localhost/dhilas/wp-content/uploads/2024/02/mosman.jpg" alt="">
-            </div>
-
-            <div class="job-card">
-                <div class="overlay p-4">
-                    <p class="fs-27 text-primary fw-700">Bankstown</p>
-                    <p class="fs-20 text-white fw-500">Land Flattening</p>
-                </div>
-                <img class="image" src="http://localhost/dhilas/wp-content/uploads/2024/02/bankstown.jpg" alt="">
-            </div>
-
-            <div class="job-card">
-                <div class="overlay p-4">
-                    <p class="fs-27 text-primary fw-700">Liverpool</p>
-                    <p class="fs-20 text-white fw-500">Block Clearance</p>
-                </div>
-                <img class="image" src="http://localhost/dhilas/wp-content/uploads/2024/02/liverpool.jpg" alt="">
-            </div>
-
-            <div class="job-card">
-                <div class="overlay p-4">
-                    <p class="fs-27 text-primary fw-700">Mosman</p>
-                    <p class="fs-20 text-white fw-500">Land Clearing</p>
-                </div>
-                <img class="image" src="http://localhost/dhilas/wp-content/uploads/2024/02/mosman.jpg" alt="">
-            </div>
-
-            <div class="job-card">
-                <div class="overlay p-4">
-                    <p class="fs-27 text-primary fw-700">Bankstown</p>
-                    <p class="fs-20 text-white fw-500">Land Flattening</p>
-                </div>
-                <img class="image" src="http://localhost/dhilas/wp-content/uploads/2024/02/bankstown.jpg" alt="">
-            </div>
-        </div>
-
-        <div class="col-6 col-md-4 mx-auto mt-5">
-            <a href="#" class="btn btn-tertiary text-primary text-uppercase fw-700 fs-24 rounded-0">See More</a>
+            <?php if (have_rows('jobs', 'options')) :
+                while (have_rows('jobs', 'options')) : the_row();
+            ?>
+                    <div>
+                        <div class="row g-4">
+                            <?php foreach (get_sub_field('gallery') as $image) : ?>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="job-card">
+                                        <div class="overlay p-4">
+                                            <p class="fs-27 text-primary fw-700"><?= $image['caption'] ?></p>
+                                            <p class="fs-20 text-white fw-500"><?= $image['description'] ?></p>
+                                        </div>
+                                        <img class="image" src="<?= $image['url'] ?>" alt="<?= $image['alt'] ?>">
+                                    </div>
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
+                    </div>
+            <?php
+                endwhile;
+            endif; ?>
         </div>
     </div>
 </section>

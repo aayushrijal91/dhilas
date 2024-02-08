@@ -49,10 +49,12 @@ jQuery(function ($) {
                 });
 
                 $('.jobs-description-slider').slick({
-                    slidesToShow: 3,
+                    slidesToShow: 1,
                     slidesToScroll: 1,
                     arrows: false,
                     asNavFor: $('.jobs-slider'),
+                    fade: true,
+                    cssEase: 'linear',
                     responsive: [
                         {
                             breakpoint: 540,
