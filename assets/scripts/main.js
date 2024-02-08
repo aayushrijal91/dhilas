@@ -8,7 +8,17 @@ jQuery(function ($) {
                 $('.bannerServiceSlider').slick({
                     slidesToShow: 4,
                     slidesToScroll: 1,
-                    
+                    responsive: [
+                        {
+                            breakpoint: 540,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 1,
+                                arrows: false,
+                                autoplay: true
+                            }
+                        }
+                    ]
                 });
 
                 $('.jobs-slider').slick({
@@ -18,6 +28,15 @@ jQuery(function ($) {
                     arrows: false,
                     focusOnSelect: true,
                     asNavFor: $('.jobs-description-slider'),
+                    responsive: [
+                        {
+                            breakpoint: 540,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1,
+                            }
+                        }
+                    ]
                 });
 
                 $('.jobs-description-slider').slick({
@@ -25,6 +44,15 @@ jQuery(function ($) {
                     slidesToScroll: 1,
                     arrows: false,
                     asNavFor: $('.jobs-slider'),
+                    responsive: [
+                        {
+                            breakpoint: 540,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1,
+                            }
+                        }
+                    ]
                 });
 
                 AOS.refresh();
@@ -36,6 +64,15 @@ jQuery(function ($) {
                     centerMode: true,
                     centerPadding: "0px",
                     autoplay: true,
+                    responsive: [
+                        {
+                            breakpoint: 540,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1,
+                            }
+                        }
+                    ]
                 });
 
                 AOS.refresh();

@@ -1,33 +1,35 @@
-<section class="about py-8">
+<section class="about py-6 py-md-8">
     <div class="container">
-        <div class="row">
-            <div class="col-6">
+        <div class="row gy-5">
+            <div class="col-md-6">
                 <p class="fs-65 fw-800 text-tertiary lh-1"><span class="text-primary">Dhilas</span> Excavation and Demolition</p>
-                <p class="fs-32 fw-600 py-3">takes great pride in the equipment and personnel we send to your project. We take every measure possible to ensure your experience with us is a good one.</p>
+                <article class="fs-32 fw-600 py-3 description">
+                    <p>takes great pride in the equipment and personnel we send to your project. We take every measure possible to ensure your experience with us is a good one.</p>
+                </article>
 
-                <div class="row g-3">
-                    <div class="col-6">
+                <div class="row g-3 pt-4 pt-md-0">
+                    <div class="col-12 col-md-6">
                         <div class="d-flex gap-3 align-items-center">
                             <img src="<?= home_url() ?>/wp-content/uploads/2024/02/competitive-rates.png" alt="">
                             <p class="fs-20 text-tertiary fw-600">Competitive Rates</p>
                         </div>
                     </div>
 
-                    <div class="col-6">
+                    <div class="col-12 col-md-6">
                         <div class="d-flex gap-3 align-items-center">
                             <img src="<?= home_url() ?>/wp-content/uploads/2024/02/on-site-consultation.png" alt="">
                             <p class="fs-20 text-tertiary fw-600">On-Site Consultations</p>
                         </div>
                     </div>
 
-                    <div class="col-6">
+                    <div class="col-12 col-md-6">
                         <div class="d-flex gap-3 align-items-center">
                             <img src="<?= home_url() ?>/wp-content/uploads/2024/02/free-on-site-visits.png" alt="">
                             <p class="fs-20 text-tertiary fw-600">Free On-Site Visits</p>
                         </div>
                     </div>
 
-                    <div class="col-6">
+                    <div class="col-12 col-md-6">
                         <div class="d-flex gap-3 align-items-center">
                             <img src="<?= home_url() ?>/wp-content/uploads/2024/02/free-quotes.png" alt="">
                             <p class="fs-20 text-tertiary fw-600">Free Quotes</p>
@@ -36,10 +38,10 @@
                 </div>
             </div>
 
-            <div class="col-6">
+            <div class="col-md-6">
                 <div class="video-banner">
                     <div class="backdrop position-absolute bottom-0 w-100 bg-primary opacity-50 start-0 rounded-20"></div>
-                    
+
                     <svg class="vector-back" xmlns="http://www.w3.org/2000/svg" width="65" height="80" viewBox="0 0 65 80" fill="none">
                         <path d="M0 80C14.244 59.9058 21.5215 37.237 25.8134 13.5636C26.8086 8.16326 29.0479 5.52591 34.5837 4.83517C44.4115 3.57928 54.177 1.75824 65 0C51.8134 34.8509 29.6077 60.471 0 80Z" fill="#7CC5E5" />
                     </svg>

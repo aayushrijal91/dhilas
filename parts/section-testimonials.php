@@ -5,7 +5,7 @@
             <div class="divider bg-black"></div>
         </div>
 
-        <div class="testimonials-slider pt-5">
+        <div class="testimonials-slider pt-4 pt-md-5">
             <?php for ($i = 0; $i < 10; $i++) : ?>
                 <div class="testimonial bg-tertiary position-relative">
                     <div class="row justify-content-between align-items-center">
@@ -27,10 +27,10 @@
                     </article>
 
                     <div class="row justify-content-between align-items-center pt-4">
-                        <div class="col-auto">
+                        <div class="col-6 col-md-auto">
                             <div class="d-flex gap-3 align-items-center">
                                 <div class="initials fs-20 fw-700 bg-primary text-white d-flex justify-content-center align-items-center rounded-circle">JM</div>
-                                <div class="fs-20 fw-600 text-white">John M.</div>
+                                <div class="description fs-20 fw-600 text-white">John M.</div>
                             </div>
                         </div>
 

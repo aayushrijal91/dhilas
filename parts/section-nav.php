@@ -2,7 +2,7 @@
     <nav>
         <div class="container">
             <div class="row align-items-center justify-content-between">
-                <div class="col-auto">
+                <div class="col-5 col-md-auto">
                     <a href="<?= home_url() ?>" class="">
                         <img src="<?= get_field('general', 'options')['logo']['url'] ?>" alt="<?= get_field('general', 'options')['logo']['url'] ?>">
                     </a>
@@ -10,7 +10,7 @@
 
                 <div class="col-7">
                     <div class="row align-items-center gx-xl-5">
-                        <div class="col-auto">
+                        <div class="col-auto d-none d-md-block">
                             <div class="row align-items-center">
                                 <div class="col-auto border-primary border-end">
                                     <img src="<?= home_url() ?>/wp-content/uploads/2024/02/clock.png" alt="">
@@ -22,7 +22,7 @@
                             </div>
                         </div>
 
-                        <div class="col-auto">
+                        <div class="col-auto d-none d-md-block">
                             <div class="row align-items-center">
                                 <div class="col-auto border-primary border-end">
                                     <img src="<?= home_url() ?>/wp-content/uploads/2024/02/phone.png" alt="">

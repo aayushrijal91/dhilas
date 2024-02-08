@@ -5,8 +5,8 @@
             <div class="divider bg-black"></div>
         </div>
 
-        <div class="row gx-xl-5 pt-5">
-            <div class="col-3">
+        <div class="row gy-4 gx-xl-5 pt-5">
+            <div class="col-md-3">
                 <div class="service-card">
                     <p class="text-uppercase fs-32 py-3 px-4 fw-900">Demolition</p>
                     <img class="image" src="<?= home_url() ?>/wp-content/uploads/2024/02/demolition-1.png" alt="">
@@ -20,7 +20,7 @@
                 </div>
             </div>
 
-            <div class="col-3">
+            <div class="col-md-3">
                 <div class="service-card">
                     <p class="text-uppercase fs-32 py-3 px-4 fw-900">Asbestos Removal</p>
                     <img class="image" src="<?= home_url() ?>/wp-content/uploads/2024/02/asbestos-removal-1.png" alt="">
@@ -34,7 +34,7 @@
                 </div>
             </div>
 
-            <div class="col-3">
+            <div class="col-md-3">
                 <div class="service-card">
                     <p class="text-uppercase fs-32 py-3 px-4 fw-900">Excavation</p>
                     <img class="image" src="<?= home_url() ?>/wp-content/uploads/2024/02/excavation-1.png" alt="">
@@ -48,7 +48,7 @@
                 </div>
             </div>
 
-            <div class="col-3">
+            <div class="col-md-3">
                 <div class="service-card">
                     <p class="text-uppercase fs-32 py-3 px-4 fw-900">Traffic Control</p>
                     <img class="image" src="<?= home_url() ?>/wp-content/uploads/2024/02/traffic-control-1.png" alt="">

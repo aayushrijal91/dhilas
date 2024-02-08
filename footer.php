@@ -1,7 +1,7 @@
 <footer class="bg-dark-grey">
     <div class="container">
         <div class="row align-items-center pt-5 pb-4">
-            <div class="col-4 text-center">
+            <div class="col-md-4 text-center">
                 <a href="<?= home_url() ?>"><img src="<?= get_field('general', 'options')['logo']['url'] ?>" alt="<?= get_field('general', 'options')['logo']['url'] ?>"></a>
 
                 <div class="row align-items-center justify-content-center gx-2 pt-3">
@@ -29,9 +29,9 @@
                 </div>
             </div>
 
-            <div class="col-8">
-                <div class="row">
-                    <div class="col-4">
+            <div class="col-12 col-md-8 pt-5 pt-md-0">
+                <div class="row gy-4">
+                    <div class="col-6 col-md-4">
                         <p class="fs-22 text-primary fw-700 pb-4">Quick Links</p>
 
                         <ul class="ps-0 d-flex flex-column gap-3">
@@ -43,7 +43,7 @@
                         </ul>
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-6 col-md-4">
                         <p class="fs-22 text-primary fw-700 pb-4">Services</p>
 
                         <ul class="ps-0 d-flex flex-column gap-3">
@@ -54,7 +54,7 @@
                         </ul>
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-12 col-md-4">
                         <p class="fs-22 text-primary fw-700 pb-4">Reach us</p>
 
                         <ul class="ps-0 d-flex flex-column gap-4">
@@ -91,18 +91,18 @@
         </div>
     </div>
 
-    <div class="col-10 mx-auto">
+    <div class="col-11 col-md-10 mx-auto">
         <hr class="border-2 border-primary opacity-40">
     </div>
 
     <div class="container">
-        <div class="row justify-content-between align-items-center pb-4">
-            <div class="col-auto">
-                <p class="text-white">© <?= date('Y') ?> Dhilas Excavation & Demolition Pty Ltd</p>
+        <div class="row justify-content-center justify-content-md-between align-items-center pb-4 gy-4">
+            <div class="col-12 col-md-auto">
+                <p class="text-white text-center">© <?= date('Y') ?> Dhilas Excavation & Demolition Pty Ltd</p>
             </div>
 
             <div class="col-auto">
-                <img src="http://localhost/dhilas/wp-content/uploads/2024/02/aiims.png" alt="">
+                <a href="https://www.aiims.com.au/this-is-us"><img src="<?= home_url() ?>/wp-content/uploads/2024/02/aiims.png" alt=""></a>
             </div>
         </div>
     </div>

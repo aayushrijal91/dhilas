@@ -105,7 +105,7 @@
             </div>
         </div>
 
-        <div class="col-4 mx-auto mt-5">
+        <div class="col-6 col-md-4 mx-auto mt-5">
             <a href="#" class="btn btn-tertiary text-primary text-uppercase fw-700 fs-24 rounded-0">See More</a>
         </div>
     </div>
