@@ -30,7 +30,7 @@ get_template_part('parts/section', 'banner');
                 if ($the_query->have_posts()) :
                     while ($the_query->have_posts()) : $the_query->the_post();
                 ?>
-                        <div class="col-4">
+                        <div class="col-md-6 col-lg-4">
                             <div class="service-card">
                                 <?php $image_id = get_post_thumbnail_id(get_the_ID());
                                 $alt_text = get_post_meta($image_id, '_wp_attachment_image_alt', true); ?>

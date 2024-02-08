@@ -11,8 +11,8 @@ get_template_part('parts/section', 'banner');
 <main class="contactuspage">
     <section class="contact py-7">
         <div class="container">
-            <div class="row justify-content-between gy-6">
-                <div class="col-5">
+            <div class="row justify-content-between gy-5 gy-md-6">
+                <div class="col-md-6 col-xl-5">
                     <div class="row">
                         <div class="col-auto">
                             <svg width="36" height="54" viewBox="0 0 36 54" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -22,27 +22,27 @@ get_template_part('parts/section', 'banner');
 
                         <div class="col">
                             <p class="text-tertiary fs-32 fw-800">Service Area</p>
-                            <p class="text-grey pt-4 fs-24">Sydney Wide</p>
+                            <p class="text-grey pt-3 pt-md-4 fs-24">Sydney Wide</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-5">
+                <div class="col-md-6 col-xl-5">
                     <div class="row">
-                        <div class="col-auto">
+                        <div class="col-2 col-md-auto">
                             <svg width="34" height="24" viewBox="0 0 34 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path opacity="0.2" d="M0 2.60176C0.0496701 2.42104 0.0931315 2.23853 0.151671 2.06047C0.55258 0.838102 1.68524 0.0110235 2.99795 0.00479149C5.07788 -0.0041114 7.15782 0.00212062 9.23776 0.00212062C16.4399 0.00212062 23.6421 0.00212062 30.8451 0.00212062C32.3592 0.00212062 33.5282 0.852347 33.8874 2.23229C33.9619 2.51808 33.9939 2.82345 33.9948 3.11991C34.001 9.03944 34.001 14.9599 33.9983 20.8794C33.9974 22.7125 32.7104 23.999 30.8797 23.999C21.6526 24.0008 12.4255 23.9999 3.19929 23.999C1.53623 23.999 0.448805 23.1416 0.0505571 21.5213C0.0399135 21.4795 0.0177393 21.4403 0.000886966 21.3993C0 15.1353 0 8.86851 0 2.60176ZM3.48312 2.02041C3.57802 2.12368 3.641 2.19668 3.70752 2.26434C7.8399 6.42645 11.9723 10.5877 16.1055 14.7489C16.6732 15.3204 17.3304 15.316 17.9079 14.7346C22.0411 10.5734 26.1744 6.4122 30.3059 2.2501C30.3706 2.18511 30.4265 2.11033 30.5037 2.02041H3.48312ZM30.5312 21.9949C27.6503 19.1282 24.8173 16.3104 21.9835 13.4909C21.1116 14.3616 20.2078 15.2599 19.3084 16.1626C17.9673 17.5088 16.0284 17.5097 14.6926 16.1626C13.873 15.3356 13.0526 14.5094 12.2322 13.6832C12.1497 13.6004 12.061 13.5229 11.9749 13.4428L12.0415 13.5523C9.21026 16.3665 6.37906 19.1816 3.54964 21.994H30.532L30.5312 21.9949ZM2.00632 20.4369C4.81978 17.6414 7.67137 14.8085 10.5026 11.9952C7.65984 9.16497 4.81534 6.33297 2.00632 3.53657V20.436V20.4369ZM31.9867 20.4823V3.53034C29.1661 6.33386 26.3181 9.16497 23.4611 12.005C26.3163 14.8441 29.1635 17.6752 31.9867 20.4832V20.4823Z" fill="black" />
                             </svg>
                         </div>
 
-                        <div class="col">
+                        <div class="col-10 col-md">
                             <p class="text-tertiary fs-32 fw-800">Contact with Us</p>
-                            <p class="text-grey pt-4 fs-24"><?= get_field('general', 'options')['email_address']; ?></p>
+                            <p class="text-grey pt-3 pt-md-4 fs-24"><?= get_field('general', 'options')['email_address']; ?></p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-5">
+                <div class="col-lg-6 col-xl-5">
                     <div class="row">
                         <div class="col-auto">
                             <svg width="30" height="53" viewBox="0 0 30 53" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -51,16 +51,21 @@ get_template_part('parts/section', 'banner');
                         </div>
 
                         <div class="col">
-                            <p class="text-tertiary fs-32 fw-800">Contact with Us</p>
-                            <div class="d-flex pt-4 gap-6">
-                                <a class="text-grey fs-24" href="tel:<?= get_field('general', 'options')['phone_number'] ?>"><?= get_field('general', 'options')['phone_number'] ?></a>
-                                <a class="text-grey fs-24" href="tel:<?= get_field('general', 'options')['phone_number'] ?>"><?= get_field('general', 'options')['phone_number'] ?></a>
+                            <p class="text-tertiary fs-32 fw-800">Have a Question? Call us</p>
+                            <div class="row pt-3 pt-md-4 gx-md-6">
+                                <div class="col-6 col-md-auto">
+                                    <a class="text-grey fs-24" href="tel:<?= get_field('general', 'options')['phone_number'] ?>"><?= get_field('general', 'options')['phone_number'] ?></a>
+                                </div>
+
+                                <div class="col-6 col-md-auto">
+                                    <a class="text-grey fs-24" href="tel:<?= get_field('general', 'options')['phone_number'] ?>"><?= get_field('general', 'options')['phone_number'] ?></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-5">
+                <div class="col-lg-6 col-xl-5">
                     <div class="row">
                         <div class="col-auto">
                             <svg width="42" height="43" viewBox="0 0 42 43" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -70,7 +75,7 @@ get_template_part('parts/section', 'banner');
 
                         <div class="col">
                             <p class="text-tertiary fs-32 fw-800">Working Time</p>
-                            <p class="fs-24 text-grey pt-4">Our support team available to help you 24 Hours / day, seven days a week</p>
+                            <p class="fs-24 text-grey pt-3 pt-md-4">Our support team available to help you 24 Hours / day, seven days a week</p>
                             <p class="fs-24 text-grey">Monday - Sunday : 07:00am - 4:00pm</p>
                         </div>
                     </div>
