@@ -1,7 +1,7 @@
 <section class="services mb-n5">
     <div class="container">
         <p class="fs-95 fw-800 text-center text-primary">What We Do</p>
-        <div class="col-lg-4 col-xl-2 mx-auto py-4">
+        <div class="col-md-5 col-lg-4 col-xl-2 mx-auto py-4">
             <div class="divider bg-black"></div>
         </div>
 

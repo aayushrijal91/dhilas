@@ -12,7 +12,7 @@ get_template_part('parts/section', 'nav');
         <div class="container pt-16 pb-10 py-xl-16">
             <p class="text-white fs-35 text-uppercase fw-700 text-center">We know how to solve all your</p>
             <h1 class="text-capitalize fw-700 fs-85 text-center text-primary">Solve all your problems</h1>
-            <div class="col-lg-4 col-xl-2 mx-auto py-4 py-md-5">
+            <div class="col-md-5 col-lg-4 col-xl-2 mx-auto py-4 py-md-5">
                 <div class="divider bg-white"></div>
             </div>
             <div class="col-xl-7 mx-auto">

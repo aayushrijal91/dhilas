@@ -2,7 +2,7 @@
     <div class="container">
         <p class="fs-95 fw-800 text-center text-primary lh-1">Explore Our Exclusive Promotions</p>
         <p class="fs-35 text-tertiary text-center fw-500 py-3">for Exceptional Excavation and Demolition Services</p>
-        <div class="col-lg-4 col-xl-2 mx-auto py-4">
+        <div class="col-md-6 col-lg-4 col-xl-2 mx-auto py-4">
             <div class="divider bg-black"></div>
         </div>
 
@@ -69,11 +69,11 @@
         </div>
 
         <div class="row justify-content-end pt-7 pt-lg-11">
-            <div class="col-xl-7">
+            <div class="col-xl-6 col-xxl-7">
                 <p class="text-uppercase fs-45 fw-800 lh-1 text-tertiary">our employees are trained</p>
                 <p class="text-uppercase fs-95 fw-800 lh-1 text-primary">And Qualified</p>
 
-                <div class="col-xl-5 py-5">
+                <div class="col-md-5 col-lg-4 col-xl-5 py-5">
                     <div class="divider bg-tertiary"></div>
                 </div>
 

@@ -8,7 +8,7 @@
             <div class="col-lg-6 py-md-5 order-1 order-md-2 " data-aos="fade-left">
                 <p class="text-uppercase fw-800 lh-1 text-black fs-45">Safety is our</p>
                 <p class="text-uppercase fw-800 lh-1 text-primary fs-95">#1 Priority</p>
-                <div class="col-6 ms-md-n4 py-4 py-md-5">
+                <div class="col-6 ms-xl-n4 py-4 py-md-5">
                     <div class="divider bg-black"></div>
                 </div>
 
