@@ -10,19 +10,19 @@
                     <p class="text-primary fs-24 fw-700 pt-5 pb-3">Contact Details</p>
 
                     <div class="row g-3">
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-lg-6">
                             <input type="text" class="form-control" placeholder="First Name">
                         </div>
 
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-lg-6">
                             <input type="text" class="form-control" placeholder="Last Name">
                         </div>
 
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-lg-6">
                             <input type="tel" class="form-control" placeholder="Phone Number">
                         </div>
 
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-lg-6">
                             <input type="email" class="form-control" placeholder="Email Address">
                         </div>
 
@@ -36,15 +36,15 @@
                     <p class="text-primary fs-24 fw-700 pb-3">How to Contact Me</p>
 
                     <div class="row g-3 justify-content-end">
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-lg-6">
                             <input type="email" class="form-control" placeholder="Email">
                         </div>
 
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-lg-6">
                             <input type="text" class="form-control" placeholder="Other">
                         </div>
 
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-lg-6">
                             <textarea class="form-control" rows="3" placeholder="Comment"></textarea>
                         </div>
                     </div>
@@ -52,13 +52,13 @@
                     <p class="text-primary fs-24 fw-700 py-3">Service Required</p>
 
                     <div class="row g-3 justify-content-end">
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-lg-6">
                             <select class="form-control">
                                 <option selected>Excavation</option>
                             </select>
                         </div>
 
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-lg-6">
                             <input type="text" class="form-control" placeholder="Other">
                         </div>
 
@@ -77,7 +77,7 @@
 
                     <p class="text-primary"><span class="fw-700">Your privacy is our priority</span><span class="px-4">|</span>All information will remain 100% private and secure</p>
                 </div>
-                <div class="col-8 col-md-3">
+                <div class="col-8 col-md-6 col-lg-3">
                     <button class="btn btn-primary w-100 rounded-0 fs-24 fw-500" type="submit">Book A Quote</button>
                 </div>
             </div>

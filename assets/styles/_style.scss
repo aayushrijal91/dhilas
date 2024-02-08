@@ -36,7 +36,7 @@ main.homepage {
         .bg-container {
             padding: 64px 0;
 
-            @include media-breakpoint-up(md) {
+            @include media-breakpoint-up(lg) {
                 padding: 69px 0 390px;
                 background: imgUrl('business-needs.jpg') center top;
                 background-size: cover;

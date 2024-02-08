@@ -34,7 +34,7 @@
                             </div>
                         </div>
 
-                        <div class="col">
+                        <div class="col d-md-none d-lg-block">
                             <div class="row align-items-center justify-content-center gx-2 pb-2">
                                 <div class="col-auto">
                                     <p class="text-uppercase text-primary fs-12 fw-800">Follow us</p>

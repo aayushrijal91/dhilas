@@ -7,7 +7,7 @@
         </div>
 
         <div class="row gy-4">
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4">
                 <div class="promotion-card">
                     <img class="w-100 h-100 object-fit-cover" src="http://localhost/dhilas/wp-content/uploads/2024/02/free-quote.png" alt="">
 
@@ -17,7 +17,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4">
                 <div class="promotion-card">
                     <img class="w-100 h-100 object-fit-cover" src="http://localhost/dhilas/wp-content/uploads/2024/02/free-quote.png" alt="">
 
@@ -27,7 +27,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4">
                 <div class="promotion-card">
                     <img class="w-100 h-100 object-fit-cover" src="http://localhost/dhilas/wp-content/uploads/2024/02/free-quote.png" alt="">
 
@@ -37,7 +37,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4">
                 <div class="promotion-card">
                     <img class="w-100 h-100 object-fit-cover" src="http://localhost/dhilas/wp-content/uploads/2024/02/free-quote.png" alt="">
 
@@ -47,7 +47,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4">
                 <div class="promotion-card">
                     <img class="w-100 h-100 object-fit-cover" src="http://localhost/dhilas/wp-content/uploads/2024/02/free-quote.png" alt="">
 
@@ -57,7 +57,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4">
                 <div class="promotion-card">
                     <img class="w-100 h-100 object-fit-cover" src="http://localhost/dhilas/wp-content/uploads/2024/02/free-quote.png" alt="">
 
@@ -68,8 +68,8 @@
             </div>
         </div>
 
-        <div class="row justify-content-end pt-7 pt-md-11">
-            <div class="col-md-7">
+        <div class="row justify-content-end pt-7 pt-lg-11">
+            <div class="col-lg-7">
                 <p class="text-uppercase fs-45 fw-800 lh-1 text-tertiary">our employees are trained</p>
                 <p class="text-uppercase fs-95 fw-800 lh-1 text-primary">And Qualified</p>
 

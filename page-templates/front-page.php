@@ -9,7 +9,7 @@ get_template_part('parts/section', 'nav');
 
 <main class="homepage">
     <section class="homepage-banner">
-        <div class="container pt-16 pb-10 py-md-16">
+        <div class="container pt-16 pb-10 py-lg-16">
             <p class="text-white fs-35 text-uppercase fw-700 text-center">We know how to solve all your</p>
             <h1 class="text-capitalize fw-700 fs-85 text-center text-primary">Solve all your problems</h1>
             <div class="col-xl-2 mx-auto py-4 py-md-5">
@@ -60,15 +60,15 @@ get_template_part('parts/section', 'nav');
     <section class="business-needs">
         <div class="container">
             <div class="bg-container">
-                <div class="row justify-content-between">
-                    <div class="col-12 col-md-6">
+                <div class="row justify-content-between gy-5">
+                    <div class="col-12 col-lg-6">
                         <p class="text-uppercase text-primary fs-65 fw-800 lh-1">For <span class="text-tertiary">Over</span></p>
                         <p class="fs-125 text-uppercase fw-800 text-primary lh-1">15 Years</p>
                         <p class="text-tertiary fs-24 fw-800">we've been helping with any of</p>
                         <p class="text-tertiary fs-48 fw-800 lh-1">your business<br /> needs.</p>
                     </div>
 
-                    <div class="col-12 col-md-5">
+                    <div class="col-12 col-lg-5">
                         <p class="text-end fs-24 fw-600 text-black">We have been the company of <span class="fw-800">choice of</span></p>
 
                         <div class="row g-3 pt-4">

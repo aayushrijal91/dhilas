@@ -1,7 +1,7 @@
 <section class="about py-6 py-md-8">
     <div class="container">
         <div class="row gy-5">
-            <div class="col-md-6">
+            <div class="col-lg-6">
                 <p class="fs-65 fw-800 text-tertiary lh-1"><span class="text-primary">Dhilas</span> Excavation and Demolition</p>
                 <article class="fs-32 fw-600 py-3 description">
                     <p>takes great pride in the equipment and personnel we send to your project. We take every measure possible to ensure your experience with us is a good one.</p>
@@ -38,7 +38,7 @@
                 </div>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-lg-6">
                 <div class="video-banner">
                     <div class="backdrop position-absolute bottom-0 w-100 bg-primary opacity-50 start-0 rounded-20"></div>
 

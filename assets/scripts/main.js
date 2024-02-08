@@ -10,6 +10,15 @@ jQuery(function ($) {
                     slidesToScroll: 1,
                     responsive: [
                         {
+                            breakpoint: 900,
+                            settings: {
+                                slidesToShow: 3,
+                                slidesToScroll: 1,
+                                arrows: false,
+                                autoplay: true
+                            }
+                        },
+                        {
                             breakpoint: 540,
                             settings: {
                                 slidesToShow: 2,
@@ -66,10 +75,19 @@ jQuery(function ($) {
                     autoplay: true,
                     responsive: [
                         {
+                            breakpoint: 900,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1,
+                                centerPadding: "50px",
+                            }
+                        },
+                        {
                             breakpoint: 540,
                             settings: {
                                 slidesToShow: 1,
                                 slidesToScroll: 1,
+                                centerPadding: "0px",
                             }
                         }
                     ]
