@@ -1,6 +1,6 @@
 <section class="our-numbers">
     <div class="container">
-        <div class="row justify-content-between gy-4">
+        <div class="row justify-content-around justify-content-xl-between gy-4">
             <div class="col-6 col-md-auto text-center">
                 <img src="http://localhost/dhilas/wp-content/uploads/2024/02/projects.png" alt="">
                 <p class="fs-52 text-primary fw-700 pt-3">350</p>

@@ -75,6 +75,14 @@ jQuery(function ($) {
                     autoplay: true,
                     responsive: [
                         {
+                            breakpoint: 1100,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1,
+                                centerPadding: "100px",
+                            }
+                        },
+                        {
                             breakpoint: 900,
                             settings: {
                                 slidesToShow: 1,

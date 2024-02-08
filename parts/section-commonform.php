@@ -1,6 +1,6 @@
 <section class="common-form">
     <div class="container">
-        <div class="bg-tertiary py-4 px-3 px-md-5 form">
+        <div class="bg-tertiary py-4 px-3 px-md-5 px-lg-3 px-xl-5 form">
             <div class="row gy-5 ">
                 <div class="col-12 col-md-6 border-end border-primary">
                     <img src="<?= get_field('general', 'options')['logo']['url'] ?>" alt="<?= get_field('general', 'options')['logo']['alt'] ?>">

@@ -1,7 +1,7 @@
 <section class="testimonials pb-8">
     <div class="container-fluid">
         <p class="fs-95 fw-800 text-center text-primary lh-1">What They Said</p>
-        <div class="col-xl-2 mx-auto py-4">
+        <div class="col-lg-4 col-xl-2 mx-auto py-4">
             <div class="divider bg-black"></div>
         </div>
 
