@@ -33,19 +33,16 @@ main.homepage {
     }
 
     section.business-needs {
-        .bg-container {
-            padding: 64px 0;
+        background: imgUrl('business-needs.jpg') center top;
+        padding: 64px 0;
 
-            @include media-breakpoint-up(lg) {
-                padding: 69px 0 390px;
-                background: imgUrl('business-needs.jpg') center top;
-                background-size: cover;
-            }
+        @include media-breakpoint-up(lg) {
+            padding: 69px 0 390px;
+        }
 
-            .cta-text {
-                @include media-breakpoint-down(sm) {
-                    font-size: 18px !important;
-                }
+        .cta-text {
+            @include media-breakpoint-down(sm) {
+                font-size: 18px !important;
             }
         }
     }

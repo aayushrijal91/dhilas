@@ -47,6 +47,12 @@ img {
     align-items: center;
 }
 
+.highlight-primary {
+    span {
+        color: $primary;
+    }
+}
+
 a {
     text-decoration: none;
 }

@@ -9,9 +9,16 @@ get_template_part('parts/section', 'nav');
 
 <main class="homepage">
     <section class="homepage-banner">
+        <?php $banner = get_field('banner'); ?>
         <div class="container pt-16 pb-10 py-xl-16">
-            <p class="text-white fs-35 text-uppercase fw-700 text-center">We know how to solve all your</p>
-            <h1 class="text-capitalize fw-700 fs-85 text-center text-primary">Solve all your problems</h1>
+            <?php if (!empty($banner['subtitle'])) : ?>
+                <p class="text-white fs-35 text-uppercase fw-700 text-center"><?= $banner['subtitle'] ?></p>
+            <?php endif; ?>
+
+            <?php if (!empty($banner['title'])) : ?>
+                <h1 class="text-capitalize fw-700 fs-85 text-center text-primary"><?= $banner['title'] ?></h1>
+            <?php endif; ?>
+
             <div class="col-md-5 col-lg-4 col-xl-2 mx-auto py-4 py-md-5">
                 <div class="divider bg-white"></div>
             </div>
@@ -59,34 +66,32 @@ get_template_part('parts/section', 'nav');
 
     <section class="business-needs">
         <div class="container">
-            <div class="bg-container">
-                <div class="row justify-content-between gy-5">
-                    <div class="col-12 col-lg-6">
-                        <p class="text-uppercase text-primary fs-65 fw-800 lh-1">For <span class="text-tertiary">Over</span></p>
-                        <p class="fs-125 text-uppercase fw-800 text-primary lh-1">15 Years</p>
-                        <p class="text-tertiary fs-24 fw-800">we've been helping with any of</p>
-                        <p class="text-tertiary fs-48 fw-800 lh-1">your business<br /> needs.</p>
-                    </div>
+            <div class="row justify-content-between gy-5">
+                <div class="col-12 col-lg-6">
+                    <p class="text-uppercase text-primary fs-65 fw-800 lh-1">For <span class="text-tertiary">Over</span></p>
+                    <p class="fs-125 text-uppercase fw-800 text-primary lh-1">15 Years</p>
+                    <p class="text-tertiary fs-24 fw-800">we've been helping with any of</p>
+                    <p class="text-tertiary fs-48 fw-800 lh-1">your business<br /> needs.</p>
+                </div>
 
-                    <div class="col-12 col-lg-6 col-xl-5">
-                        <p class="text-end fs-24 fw-600 text-black">We have been the company of <span class="fw-800">choice of</span></p>
+                <div class="col-12 col-lg-6 col-xl-5">
+                    <p class="text-end fs-24 fw-600 text-black">We have been the company of <span class="fw-800">choice of</span></p>
 
-                        <div class="row g-3 pt-4">
-                            <div class="col-6">
-                                <div class="cta-text border border-tertiary bg-tertiary text-white rounded-pill fs-24 fw-700 text-center lh-1 p-3">Excavation</div>
-                            </div>
+                    <div class="row g-3 pt-4">
+                        <div class="col-6">
+                            <div class="cta-text border border-tertiary bg-tertiary text-white rounded-pill fs-24 fw-700 text-center lh-1 p-3">Excavation</div>
+                        </div>
 
-                            <div class="col-6">
-                                <div class="cta-text border border-tertiary bg-primary text-tertiary rounded-pill fs-24 fw-700 text-center lh-1 p-3">Demolition</div>
-                            </div>
+                        <div class="col-6">
+                            <div class="cta-text border border-tertiary bg-primary text-tertiary rounded-pill fs-24 fw-700 text-center lh-1 p-3">Demolition</div>
+                        </div>
 
-                            <div class="col-12">
-                                <div class="cta-text border border-primary bg-grey text-tertiary rounded-pill fs-24 fw-700 text-center lh-1 p-3">Complete Site Development Projects</div>
-                            </div>
+                        <div class="col-12">
+                            <div class="cta-text border border-primary bg-grey text-tertiary rounded-pill fs-24 fw-700 text-center lh-1 p-3">Complete Site Development Projects</div>
+                        </div>
 
-                            <div class="col-12">
-                                <div class="cta-text border border-tertiary bg-white text-tertiary rounded-pill fs-24 fw-700 text-center lh-1 p-3">Sydney Wide</div>
-                            </div>
+                        <div class="col-12">
+                            <div class="cta-text border border-tertiary bg-white text-tertiary rounded-pill fs-24 fw-700 text-center lh-1 p-3">Sydney Wide</div>
                         </div>
                     </div>
                 </div>

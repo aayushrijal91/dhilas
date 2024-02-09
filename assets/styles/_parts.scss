@@ -2,7 +2,7 @@ section.nav {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000000000000;
+    z-index: 10000;
 
     nav {
         width: 100%;
@@ -168,7 +168,12 @@ section.priority {
 
 section.testimonials {
     .testimonials-slider {
+        .slick-track {
+            display: flex;
+        }
+
         .slick-slide {
+            height: inherit;
             padding: 27px 54px;
             border-radius: 0 0 100px 0;
             margin: 0 25px;
@@ -219,7 +224,7 @@ section.promotions {
             height: 100%;
             top: 0;
             padding: 22px;
-            font-size: 36px;
+            font-size: 34px;
             font-weight: 900;
             background: linear-gradient(180deg, rgba(29, 48, 70, 0.00) 0%, rgba(29, 48, 70, 0.90) 84.96%);
             display: flex;
