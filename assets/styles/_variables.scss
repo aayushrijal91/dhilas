@@ -1,8 +1,10 @@
 $primary: #7CC5E5;
 $primary-light: #C7EEFF;
+$primary-dark: #178BCB;
 $secondary: #132645;
 $tertiary: #1D3046;
 $grey: #838383;
+$gray: #C2C2C2;
 $black: #000000;
 $dark: #232323;
 $dark-grey: #202020;
@@ -14,6 +16,7 @@ $theme-colors: map-merge(
     (
         "primary": $primary,
         "primary-light": $primary-light,
+        "primary-dark": $primary-dark,
         "secondary": $secondary,
         "tertiary": $tertiary,
         "dark": $dark,
@@ -21,6 +24,7 @@ $theme-colors: map-merge(
         "dark-grey": $dark-grey,
         "black": $black,
         "grey": $grey,
+        "gray": $gray,
         "light": $light,
     ),
     $theme-colors

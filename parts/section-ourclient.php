@@ -6,29 +6,13 @@
         </div>
 
         <div class="row pt-4 pt-md-5 gy-4">
-            <div class="col-6 col-md-3" data-aos="fade-right">
-                <div class="bg-white h-100 d-flex justify-content-center align-items-center p-2">
-                    <img src="http://localhost/dhilas/wp-content/uploads/2024/02/bbc.png" alt="">
+            <?php foreach (get_field('clients', 'options') as $index => $client) : ?>
+                <div class="col-6 col-md-3" data-aos="<?= ($index % 4 == 0 || $index % 4 == 1) ? 'fade-right' : 'fade-left' ?>">
+                    <div class="bg-white h-100 d-flex justify-content-center align-items-center p-2">
+                        <img src="<?= $client['url'] ?>" alt="<?= $client['alt'] ?>">
+                    </div>
                 </div>
-            </div>
-
-            <div class="col-6 col-md-3" data-aos="fade-right">
-                <div class="bg-white h-100 d-flex justify-content-center align-items-center p-2">
-                    <img src="http://localhost/dhilas/wp-content/uploads/2024/02/hallmark.png" alt="">
-                </div>
-            </div>
-
-            <div class="col-6 col-md-3" data-aos="fade-left">
-                <div class="bg-white h-100 d-flex justify-content-center align-items-center p-2">
-                    <img src="http://localhost/dhilas/wp-content/uploads/2024/02/auburn-city-council.png" alt="">
-                </div>
-            </div>
-
-            <div class="col-6 col-md-3" data-aos="fade-left">
-                <div class="bg-white h-100 d-flex justify-content-center align-items-center p-2">
-                    <img src="http://localhost/dhilas/wp-content/uploads/2024/02/northern-beaches-council.png" alt="">
-                </div>
-            </div>
+            <?php endforeach; ?>
         </div>
     </div>
 </section>

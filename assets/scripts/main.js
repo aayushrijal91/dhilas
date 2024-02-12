@@ -110,6 +110,13 @@ jQuery(function ($) {
                 }).mouseleave(function() {
                     $(this).find('.chronicle').slideDown(100);
                 });
+
+                $('.projects-slider').slick({
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    centerMode: true,
+                    arrows: false,
+                });
             }, // end misc
         }, // end ui
         //utils: {
