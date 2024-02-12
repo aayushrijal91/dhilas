@@ -10,22 +10,22 @@ get_template_part('parts/section', 'banner');
 
 <main class="innerservicePage">
     <div class="container">
-        <article class="fs-27 fw-600 text-tertiary text-center description py-7">
+        <article class="fs-27 fw-600 text-tertiary text-center description pt-6 pb-4 py-lg-7">
             <p>Demolition is not merely about bringing structures down; it's a symphony of precision, safety, and expertise. When it comes to choosing a partner for demolition services, one name stands out amidst the crowd: Dhilas Excavation & Demolition. With a track record that echoes excellence and a commitment to innovation, Dhilas is your ultimate choice for transforming spaces with a touch of mastery.</p>
         </article>
 
-        <div class="row gx-xl-5 py-6">
-            <div class="col-8">
-                <div class="row g-5">
+        <div class="row gx-xl-5 py-6 gy-5">
+            <div class="col-12 col-xl-8">
+                <div class="row gy-5 gx-xl-5">
                     <div class="col-12">
-                        <article class="bg-primary-light py-4 px-6 rounded-20 shadow">
-                            <p class="col-lg-7 text-tertiary fs-35 fw-700">
+                        <article class="bg-primary-light p-4 px-md-6 rounded-20 shadow">
+                            <p class="col-xl-7 text-tertiary fs-35 fw-700">
                                 Why choose Dhilas for your Demolition needs?
                             </p>
                         </article>
                     </div>
 
-                    <div class="col-5">
+                    <div class="col-12 col-md-6 col-lg-5">
                         <div class="bg-primary rounded-20 shadow overflow-hidden">
                             <img class="w-100 h-100 object-fit-cover" src="http://localhost/dhilas/wp-content/uploads/2024/02/experience.jpg" alt="">
 
@@ -37,28 +37,28 @@ get_template_part('parts/section', 'banner');
                         </div>
                     </div>
 
-                    <div class="col-7">
+                    <div class="col-12 col-md-6 col-lg-7">
                         <div class="bg-tertiary rounded-20 shadow overflow-hidden">
-                            <article class="px-4 py-6">
+                            <article class="p-4 py-md-6">
                                 <p class="fs-27 fw-700 text-primary text-capitalize text-end">Precision-Driven Excellence</p>
 
                                 <p class="text-white fs-24 fw-600 pt-3 text-end">Our experienced team meticulously plans and executes each project, ensuring controlled dismantling that prioritizes safety and efficiency.</p>
                             </article>
 
-                            <img class="h-100 object-fit-cover" src="http://localhost/dhilas/wp-content/uploads/2024/02/precision-driven.jpg" alt="">
+                            <img class="h-100 w-100 object-fit-cover" src="http://localhost/dhilas/wp-content/uploads/2024/02/precision-driven.jpg" alt="">
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-4">
+            <div class="col-12 col-12 col-xl-4">
                 <div class="row gy-5">
-                    <div class="col-12">
+                    <div class="col-12 col-md-6 col-xl-12">
                         <div class="row bg-primary rounded-20 shadow gx-0 overflow-hidden">
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6">
                                 <img class="h-100 w-100 object-fit-cover" src="http://localhost/dhilas/wp-content/uploads/2024/02/worker-with-uniform.jpg" alt="">
                             </div>
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6">
                                 <article class="p-4">
                                     <p class="text-tertiary fs-20 fw-700">We go above and beyond industry standards to create a secure environment for our team, clients, and the community. </p>
 
@@ -68,7 +68,7 @@ get_template_part('parts/section', 'banner');
                         </div>
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-12 col-md-6 col-xl-12">
                         <div class="bg-gray shadow overflow-hidden rounded-20">
                             <img class="w-100 h-100 object-fit-cover" src="http://localhost/dhilas/wp-content/uploads/2024/02/tailored-solution.jpg" alt="">
 

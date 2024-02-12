@@ -105,9 +105,9 @@ jQuery(function ($) {
 
                 AOS.refresh();
 
-                $('.servicesList .service-card').mouseenter(function() {
+                $('.servicesList .service-card').mouseenter(function () {
                     $(this).find('.chronicle').slideUp(100);
-                }).mouseleave(function() {
+                }).mouseleave(function () {
                     $(this).find('.chronicle').slideDown(100);
                 });
 
@@ -116,6 +116,45 @@ jQuery(function ($) {
                     slidesToScroll: 1,
                     centerMode: true,
                     arrows: false,
+                    autoplay: true,
+                    responsive: [
+                        {
+                            breakpoint: 1100,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 1,
+                                centerPadding: "40px",
+                            }
+                        },
+                        {
+                            breakpoint: 900,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 1,
+                                centerPadding: "10px",
+                            }
+                        },
+                        {
+                            breakpoint: 540,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1,
+                                centerPadding: "10px",
+                            }
+                        }
+                    ]
+                });
+
+                $('#showSlidingMenu').on('click', function(e) {
+                    e.preventDefault();
+
+                    $('#slidingMenu').addClass('active');
+                });
+
+                $('#closeSlidingMenu').on('click', function(e) {
+                    e.preventDefault();
+
+                    $('#slidingMenu').removeClass('active');
                 });
             }, // end misc
         }, // end ui

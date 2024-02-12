@@ -17,6 +17,21 @@ section.nav {
     }
 }
 
+#slidingMenu {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: $tertiary;
+    z-index: 10000;
+    transition: 0.3s all;
+    transform: translateX(-100%);
+
+    &.active {
+        transform: translateX(0);
+    }
+}
+
 section.banner {
     position: relative;
     overflow: hidden;

@@ -9,23 +9,19 @@
                         <p class="text-uppercase text-white fs-12 fw-700">Follow us</p>
                     </div>
 
-                    <div class="col-auto">
-                        <a href="" target="_blank">
-                            <img src="http://localhost/dhilas/wp-content/uploads/2024/02/facebook.png" alt="">
-                        </a>
-                    </div>
-
-                    <div class="col-auto">
-                        <a href="" target="_blank">
-                            <img src="http://localhost/dhilas/wp-content/uploads/2024/02/twitter.png" alt="">
-                        </a>
-                    </div>
-
-                    <div class="col-auto">
-                        <a href="" target="_blank">
-                            <img src="http://localhost/dhilas/wp-content/uploads/2024/02/instagram.png" alt="">
-                        </a>
-                    </div>
+                    <?php
+                    if (have_rows('socials', 'options')) :
+                        while (have_rows('socials', 'options')) : the_row();
+                    ?>
+                            <div class="col-auto">
+                                <a href="<?= get_sub_field('link')['url'] ?>" target="_blank">
+                                    <img src="<?= get_sub_field('icon')['url'] ?>" alt="<?= get_sub_field('icon')['url'] ?>">
+                                </a>
+                            </div>
+                    <?php
+                        endwhile;
+                    endif;
+                    ?>
                 </div>
             </div>
 
