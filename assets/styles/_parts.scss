@@ -14,6 +14,64 @@ section.nav {
         .btn {
             height: 39px;
         }
+
+    }
+}
+
+#menu-primary-menu {
+    .nav-item.dropdown {
+        position: relative;
+        padding: 0 20px 0 0;
+
+        &::after {
+            content: '';
+            position: absolute;
+            background: url('data:image/svg+xml,<svg width="7" height="4" viewBox="0 0 7 4" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.751953 1L3.25195 3L5.75195 1" stroke="#7CC5E5"/></svg>') center no-repeat;
+            height: 16px;
+            width: 16px;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+        }
+
+        .sub-menu.dropdown-menu {
+            --bs-dropdown-min-width: 20rem;
+            background-color: rgba(53, 151, 175, 0.6) !important;
+            backdrop-filter: blur(10px);
+            border: none !important;
+            border-radius: 10px;
+            top: 100%;
+            left: 0;
+            padding: 0 20px 16px;
+            flex-direction: column;
+
+            li {
+                border-bottom: 1px solid $primary;
+            }
+        }
+
+        &:hover {
+            .sub-menu.dropdown-menu {
+                display: flex;
+            }
+        }
+    }
+}
+
+#menu-primary-menu-1 {
+    .nav-item.dropdown {
+        .sub-menu.dropdown-menu {
+            display: flex;
+            background: none;
+            flex-direction: column;
+            position: relative;
+            border: none;
+            padding-left: 16px;
+
+            .nav-item a {
+                font-size: 16px !important;
+            }
+        }
     }
 }
 
@@ -115,17 +173,17 @@ section.jobs-description {
 
     .jobs-description-slider {
         .slick-slide {
-            .job-card{
+            .job-card {
                 height: 411px;
                 position: relative;
-    
+
                 .image {
                     height: 100%;
                     width: 100%;
                     object-fit: cover;
                     z-index: 1;
                 }
-    
+
                 .overlay {
                     background: linear-gradient(180deg, #1D3046 0%, rgba(29, 48, 70, 0.00) 100%);
                     position: absolute;
@@ -156,10 +214,10 @@ section.services {
                 transform: scale(1.1);
                 transition: 0.2s all ease-in-out;
             }
-    
+
             &:hover {
                 background: $primary;
-    
+
                 .image {
                     transform: scale(1.2);
                 }

@@ -41,10 +41,29 @@ main.homepage {
         }
 
         .cta-text {
+            position: relative;
+        
             @include media-breakpoint-down(sm) {
                 font-size: 18px !important;
             }
-        }
+        
+            &::before {
+                content: "";
+                height: 30px;
+                width: 30px;
+                position: absolute;
+                top: 10px;
+                right: 17px;
+            }
+        
+            &.cta-before-primary::before {
+                background: url('data:image/svg+xml,<svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M26.1309 0.076416L30 2.90365L13.2243 28.1081H9.35515L0 14.4532L3.8691 10.6936L11.2897 17.9121L26.1309 0.076416Z" fill="%237CC5E5"/></svg>') center no-repeat;
+            }
+        
+            &:not(.cta-before-primary)::before {
+                background: url('data:image/svg+xml,<svg width="30" height="27" viewBox="0 0 30 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M26.1309 0L30 2.72252L13.2243 26.9935H9.35515L0 13.8443L3.8691 10.2239L11.2897 17.1751L26.1309 0Z" fill="%231D3046"/></svg>') center no-repeat;
+            }
+        }        
     }
 }
 
@@ -132,7 +151,7 @@ main.innerservicePage {
             margin: 0 6px;
             height: 240px;
             position: relative;
-            
+
             .overlay {
                 background: rgba(124, 197, 229, 0.9);
                 height: 100%;
@@ -144,7 +163,7 @@ main.innerservicePage {
                 opacity: 0;
                 transition: 0.2s all;
             }
-            
+
             &:hover {
                 .overlay {
                     opacity: 1;

@@ -156,6 +156,10 @@ jQuery(function ($) {
 
                     $('#slidingMenu').removeClass('active');
                 });
+
+                // $('.nav-item.dropdown').on('click', function() {
+                //     $(this).toggleClass('active');
+                // });
             }, // end misc
         }, // end ui
         //utils: {

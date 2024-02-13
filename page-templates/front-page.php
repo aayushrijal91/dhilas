@@ -10,7 +10,7 @@ get_template_part('parts/section', 'nav');
 <main class="homepage">
     <section class="homepage-banner">
         <?php $banner = get_field('banner'); ?>
-        <div class="container pt-16 pb-10 py-xl-16">
+        <div class="container pt-md-16 py-10 py-xl-16">
             <?php if (!empty($banner['subtitle'])) : ?>
                 <p class="text-white fs-35 text-uppercase fw-700 text-center"><?= $banner['subtitle'] ?></p>
             <?php endif; ?>
@@ -29,15 +29,18 @@ get_template_part('parts/section', 'nav');
             </div>
         </div>
 
-        <div class="container pb-5">
-            <div class="bannerServiceSlider">
-                <div class="bg-primary text-center text-secondary p-4">
-                    <img src="http://localhost/dhilas/wp-content/uploads/2024/02/demolition.png" alt="">
+        <?php if (!empty(get_field('banner_service_slider'))) : ?>
+            <div class="container pb-5">
+                <div class="bannerServiceSlider">
+                    <?php foreach (get_field('banner_service_slider') as $index => $service) : ?>
+                        <div class="<?= $index == 0 ? 'bg-primary text-center text-secondary' : '' ?> p-4">
+                            <img src="<?= $service['url'] ?>" alt="<?= $service['alt'] ?>">
 
-                    <p>Demolition</p>
-                </div>
+                            <p><?= $service['description'] ?></p>
+                        </div>
+                    <?php endforeach; ?>
 
-                <div class="p-4">
+                    <!-- <div class="p-4">
                     <img src="http://localhost/dhilas/wp-content/uploads/2024/02/asbestos-removal.png" alt="">
 
                     <p>Asbestos Removal</p>
@@ -59,9 +62,10 @@ get_template_part('parts/section', 'nav');
                     <img src="http://localhost/dhilas/wp-content/uploads/2024/02/strip-outs.png" alt="">
 
                     <p>Strip Outs</p>
+                </div> -->
                 </div>
             </div>
-        </div>
+        <?php endif; ?>
     </section>
 
     <section class="business-needs">
@@ -79,7 +83,7 @@ get_template_part('parts/section', 'nav');
 
                     <div class="row g-3 pt-4">
                         <div class="col-6">
-                            <div class="cta-text border border-tertiary bg-tertiary text-white rounded-pill fs-24 fw-700 text-center lh-1 p-3">Excavation</div>
+                            <div class="cta-text cta-before-primary border border-tertiary bg-tertiary text-white rounded-pill fs-24 fw-700 text-center lh-1 p-3">Excavation</div>
                         </div>
 
                         <div class="col-6">
