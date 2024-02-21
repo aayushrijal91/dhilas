@@ -13,7 +13,7 @@ get_template_part('parts/section', 'banner');
         <?php $introduction = get_field('introduction'); ?>
 
         <?php if (!empty($introduction['introduction_text'])) : ?>
-            <article class="fs-27 fw-600 text-tertiary text-center description pt-6 pb-4 py-lg-7">
+            <article class="fs-27 fw-600 text-tertiary text-center description pt-6 pb-4 py-lg-7 px-xxl-5">
                 <p><?= $introduction['introduction_text'] ?></p>
             </article>
         <?php endif; ?>

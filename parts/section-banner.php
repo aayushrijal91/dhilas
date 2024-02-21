@@ -14,7 +14,9 @@
 
         <div class="inner" data-aos="fade-up">
             <div class="container">
-                <p class="fs-32 text-center text-uppercase"><?= !empty($banner['headline']) ? $banner['headline'] : the_title() ?></p>
+                <?php if (!empty($banner['headline'])) { ?>
+                    <p class="fs-32 text-center text-uppercase"><?= $banner['headline'] ?></p>
+                <?php } ?>
                 <div class="py-3">
                     <?php if (!empty($banner["title"])) : ?>
                         <h1 class="fs-85 lh-1 fw-700 text-center"><?= $banner['title'] ?></h1>
@@ -23,11 +25,20 @@
                     <?php if (!empty($banner["subtitle"])) : ?>
                         <p class="fs-42 fw-800 text-center"><?= $banner["subtitle"] ?></p>
                     <?php endif; ?>
+
+                    <?php if (!empty($banner["sub_text"])) : ?>
+                        <div class="col-xl-7 mx-auto">
+                            <p class="fs-22 text-center"><?= $banner["sub_text"] ?></p>
+                        </div>
+                    <?php endif; ?>
                 </div>
 
                 <div class="col-md-5 col-lg-4 col-xl-3 mx-auto pt-3">
                     <div class="divider bg-primary"></div>
                 </div>
+                <?php if (!empty($banner['body_text'])) { ?>
+                    <p class="fs-32 text-center pt-4"><?= $banner['body_text'] ?></p>
+                <?php } ?>
             </div>
         </div>
     </div>

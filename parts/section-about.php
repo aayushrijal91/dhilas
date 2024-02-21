@@ -28,9 +28,7 @@
                     </svg>
 
                     <div class="video h-100">
-                        <video class="w-100 h-100 object-fit-cover" controls autoplay muted loop>
-                            <source src="<?= get_field('about', 'options')['video']['url'] ?>" type="video/mp4">
-                        </video>
+                        <?= get_field('about', 'options')['video'] ?>
                     </div>
 
                     <svg class="vector-front" xmlns="http://www.w3.org/2000/svg" width="386" height="185" viewBox="0 0 386 185" fill="none">

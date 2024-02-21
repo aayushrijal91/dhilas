@@ -75,8 +75,7 @@ get_template_part('parts/section', 'banner');
 
                         <div class="col">
                             <p class="text-tertiary fs-32 fw-800">Working Time</p>
-                            <p class="fs-24 text-grey pt-3 pt-md-4">Our support team available to help you 24 Hours / day, seven days a week</p>
-                            <p class="fs-24 text-grey">Monday - Sunday : 07:00am - 4:00pm</p>
+                            <p class="fs-24 text-grey pt-3 pt-md-4"><?= get_field('general','options')['operating_hours'] ?></p>
                         </div>
                     </div>
                 </div>

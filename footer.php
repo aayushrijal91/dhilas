@@ -30,24 +30,42 @@
                     <div class="col-6 col-md-3 col-xl-4">
                         <p class="fs-22 text-primary fw-700 pb-4">Quick Links</p>
 
-                        <ul class="ps-0 d-flex flex-column gap-3">
-                            <li><a href="" class="text-white">Home</a></li>
-                            <li><a href="" class="text-white">About</a></li>
-                            <li><a href="" class="text-white">Services</a></li>
-                            <li><a href="" class="text-white">Gallery</a></li>
-                            <li><a href="" class="text-white">Contact Us</a></li>
-                        </ul>
+                        <?php wp_nav_menu(array(
+                            'menu' => 'Quick Links',
+                            'item_class' => 'nav-item',
+                            'link_class' => 'text-white',
+                            'menu_class' => 'ps-0 d-flex flex-column gap-3'
+                        )); ?>
                     </div>
 
                     <div class="col-6 col-md-3 col-xl-4">
                         <p class="fs-22 text-primary fw-700 pb-4">Services</p>
 
                         <ul class="ps-0 d-flex flex-column gap-3">
-                            <li><a href="" class="text-white">Demolition</a></li>
-                            <li><a href="" class="text-white">Asbestos Removal</a></li>
-                            <li><a href="" class="text-white">Builk Details Excavation</a></li>
-                            <li><a href="" class="text-white">Traffic Management</a></li>
-                        </ul>
+                            <?php
+                            $args = array(
+                                'post_type'      => 'page',
+                                'posts_per_page' => -1,
+                                'order'          => 'ASC',
+                                'orderby'        => 'publish_date',
+                                'meta_query' => array(
+                                    array(
+                                        'key' => '_wp_page_template',
+                                        'value' => array('page-templates/inner-service.php'),
+                                    ),
+                                )
+                            );
+                            $the_query = new WP_Query($args);
+                            if ($the_query->have_posts()) :
+                                while ($the_query->have_posts()) : $the_query->the_post();
+                            ?>
+                                    <li><a href="<?= get_the_permalink() ?>" class="text-white"><?= get_the_title() ?></a></li>
+                            <?php
+                                endwhile;
+                            endif;
+                            wp_reset_query();
+                            ?>
+                            </ul>
                     </div>
 
                     <div class="col-12 col-md col-xl-4">

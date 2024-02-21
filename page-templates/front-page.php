@@ -22,11 +22,14 @@ get_template_part('parts/section', 'nav');
             <div class="col-md-5 col-lg-4 col-xl-2 mx-auto py-4 py-md-5">
                 <div class="divider bg-white"></div>
             </div>
-            <div class="col-xl-7 mx-auto">
-                <article class="text-white text-center fs-20 description">
-                    With our modern equipment fleet and highly skilled employees, we complete even the most challenging demolitions excavation projects on time.
-                </article>
-            </div>
+
+            <?php if (!empty($banner['body_text'])) : ?>
+                <div class="col-xl-7 mx-auto">
+                    <article class="text-white text-center fs-20 description">
+                        <p><?= $banner['body_text'] ?></p>
+                    </article>
+                </div>
+            <?php endif; ?>
         </div>
 
         <?php if (!empty(get_field('banner_service_slider'))) : ?>
@@ -91,7 +94,7 @@ get_template_part('parts/section', 'nav');
                         </div>
 
                         <div class="col-12">
-                            <div class="cta-text border border-primary bg-grey text-tertiary rounded-pill fs-24 fw-700 text-center lh-1 p-3">Complete Site Development Projects</div>
+                            <div class="cta-text border border-primary bg-light text-tertiary rounded-pill fs-24 fw-700 text-center lh-1 p-3">Complete Site Development Projects</div>
                         </div>
 
                         <div class="col-12">
