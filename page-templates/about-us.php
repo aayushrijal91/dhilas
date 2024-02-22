@@ -9,23 +9,30 @@ get_template_part('parts/section', 'banner');
 ?>
 
 <main class="aboutuspage">
-    <section class="py-7 py-md-10">
+    <section class="py-7 py-md-10 introduction">
+        <?php $introduction = get_field('introduction'); ?>
         <div class="container position-relative">
-            <p class="fs-32 fw-500" data-aos="fade-up">Who We are</p>
+            <?php if (!empty($introduction['subtitle'])) : ?>
+                <p class="fs-32 fw-500" data-aos="fade-up"><?= $introduction['subtitle'] ?></p>
+            <?php endif; ?>
 
-            <p data-aos="fade-up" class="fs-65 text-uppercase lh-1 fw-800 text-tertiary pt-3"><span class="text-primary">Turning dream into reality,</span><br /> one project at a time</p>
+            <?php if (!empty($introduction['title'])) : ?>
+                <p data-aos="fade-up" class="fs-52 text-uppercase lh-1 fw-800 text-tertiary pt-3 highlight-primary"><?= $introduction['title'] ?></p>
+            <?php endif; ?>
 
             <div class="col-md-5 col-lg-4 py-4" data-aos="fade-up">
                 <div class="divider bg-tertiary"></div>
             </div>
 
-            <article class="col-xl-7 fs-18 text-tertiary lh-1_5" data-aos="fade-up">
-                <p>
-                    With a legacy of excellence and a passion for precision, we bring a wealth of experience to every project. Our team of skilled professionals is dedicated to realizing your vision, whether it's an intricate excavation or a controlled demolition. At Dhilas, we merge innovation with safety, creating a seamless blend of expertise that sets us apart. Our commitment to client satisfaction, sustainability, and superior results defines who we are – a name you can rely on for exceptional excavation and demolition services.
-                </p>
-            </article>
+            <?php if (!empty($introduction['description'])) : ?>
+                <article class="col-xl-7 fs-18 text-tertiary lh-1_5" data-aos="fade-up">
+                    <?= $introduction['description'] ?>
+                </article>
+            <?php endif; ?>
 
-            <img data-aos="fade-down" class="project-worker-img" src="http://localhost/dhilas/wp-content/uploads/2024/02/turning-dream.png" alt="">
+            <?php if (!empty($introduction['image']['url']) && !empty($introduction['image']['alt'])) : ?>
+            <img data-aos="fade-down" class="project-worker-img" src="<?= $introduction['image']['url'] ?>" alt="<?= $introduction['image']['alt'] ?>">
+            <?php endif; ?>
         </div>
     </section>
 
