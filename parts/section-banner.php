@@ -4,7 +4,7 @@
         <img class="sky position-absolute h-100 w-100 object-fit-cover" src="<?= get_field('banner')['background']['url'] ?>" alt="">
     <?php endif; ?>
 
-    <div class="gradient-overlay">
+    <div class="position-relative">
         <?php if (empty(get_field('banner')['background']['url'])) : ?>
             <div class="bottom-0 position-absolute d-flex justify-content-center w-100">
                 <img src="<?= get_template_directory_uri() ?>/assets/images/background/subcircle.png" alt="">
@@ -27,7 +27,7 @@
                     <?php endif; ?>
 
                     <?php if (!empty($banner["sub_text"])) : ?>
-                        <div class="col-xl-7 mx-auto">
+                        <div class="col-xl-9 mx-auto">
                             <p class="fs-22 text-center"><?= $banner["sub_text"] ?></p>
                         </div>
                     <?php endif; ?>

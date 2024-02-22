@@ -54,7 +54,7 @@ get_template_part('parts/section', 'banner');
                             <p class="text-tertiary fs-32 fw-800">Have a Question? Call us</p>
                             <div class="row pt-3 pt-md-4 gx-md-6">
                                 <div class="col-6 col-md-auto">
-                                    <a class="text-grey fs-24" href="tel:<?= get_field('general', 'options')['phone_number'] ?>"><?= get_field('general', 'options')['phone_number'] ?></a>
+                                    <a class="text-grey fs-24" href="tel:<?= get_field('general', 'options')['mobile_number'] ?>"><?= get_field('general', 'options')['mobile_number'] ?></a>
                                 </div>
 
                                 <div class="col-6 col-md-auto">

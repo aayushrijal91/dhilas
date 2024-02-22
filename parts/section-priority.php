@@ -10,7 +10,7 @@
                     <p class="text-uppercase fw-800 lh-1 text-black fs-45"><?= get_field('priority', 'options')['subtitle'] ?></p>
                 <?php endif; ?>
 
-                <p class="text-uppercase fw-800 lh-1 text-primary fs-95"><?= get_field('priority', 'options')['title'] ?></p>
+                <p class="text-uppercase fw-800 lh-1 text-primary fs-90"><?= get_field('priority', 'options')['title'] ?></p>
 
                 <div class="col-6 ms-xl-n4 py-4 py-md-5">
                     <div class="divider bg-black"></div>

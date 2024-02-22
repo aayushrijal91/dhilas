@@ -76,7 +76,7 @@ get_template_part('parts/section', 'nav');
             <div class="row justify-content-between gy-5">
                 <div class="col-12 col-lg-6">
                     <p class="text-uppercase text-primary fs-65 fw-800 lh-1">For <span class="text-tertiary">Over</span></p>
-                    <p class="fs-125 text-uppercase fw-800 text-primary lh-1">15 Years</p>
+                    <p class="fs-100 text-uppercase fw-800 text-primary lh-1">15 Years</p>
                     <p class="text-tertiary fs-24 fw-800">we've been helping with any of</p>
                     <p class="text-tertiary fs-48 fw-800 lh-1">your business<br /> needs.</p>
                 </div>
