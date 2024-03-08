@@ -37,6 +37,7 @@
                                 </div>
                                 <div class="col-auto">
                                     <p class="text-primary fs-12">Hours of Operation</p>
+                                    <p class="text-white fs-12"><?= get_field('general', 'options')['mobile_number'] ?></p>
                                     <p class="text-white fs-12"><?= get_field('general', 'options')['phone_number'] ?></p>
                                 </div>
                             </div>
